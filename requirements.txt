@@ -1,0 +1,9 @@
+requests
+pandas
+geopandas
+matplotlib
+jupyter
+ipykernel
+sqlalchemy
+pymssql
+python-dotenv

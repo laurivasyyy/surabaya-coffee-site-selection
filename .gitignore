@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Secrets (database password, LLM API key)
+.env
+
+# Power BI temp files
+*.pbix.bak
+
+# macOS
+.DS_Store
