@@ -1,10 +1,16 @@
-# Where to Open the Next Specialty Coffee Outlet in Surabaya
+# Surabaya Coffee Market Map: Structure, Saturation and White Space
 
-> Work in progress. Site-selection (white-space) analysis for a fictional specialty coffee chain,
-> built on a self-collected open dataset.
+> Work in progress.
 
-**Question:** Which Surabaya districts have the most unmet demand for specialty coffee relative to existing competition?
+**Questions**
+1. What is Surabaya's coffee market made of (warkop, independent cafés, specialty, chains)?
+2. Where is it saturated, and where is it thin, relative to demand?
+3. Where should a specialty coffee chain open next?
 
-**Data:** OpenStreetMap (© OpenStreetMap contributors, ODbL), HDX administrative boundaries, BPS Kota Surabaya population statistics.
+**Data:** about 17,700 coffee-related listings collected from Google local search results (raw rows not
+published; see `data/manual/README.md`), plus open data: Overture Maps, OpenStreetMap, HDX boundaries,
+BPS population.
 
 **Stack:** Python · SQL Server · LLM classification · Power BI
+
+**Rebuild the working table:** `python src/parse_listings.py`

@@ -11,3 +11,11 @@ __pycache__/
 
 # macOS
 .DS_Store
+
+# Large raw downloads (rebuild with the commands in README)
+data/raw/*.parquet
+*.state
+
+# Scraped listing data: stays on this machine, never published
+data/raw/listings_surabaya/
+data/interim/
